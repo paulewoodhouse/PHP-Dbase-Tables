@@ -7,7 +7,8 @@ function return_table($sqlstring, $title='Title', $caption='Caption', $params=ar
 	$uid = $db['uid']; //Database UserID
 	$pwd = $db['pwd']; //Database Users Password
 	$dbase = $db['db']; //Database Name
-	$SQLServer = $db['SQLServer']; //Specify SQL Server: for MSSQL set to dblib in the ini file
+	$SQLServer = $db['SQLServer']; //Specify - SQL Server: set to dblib, MySQL: set to mysql, Postgre: set to pgsql in the ini file,
+					// make sure you have the correct PDO libraries installed
 
 	try{
 		$dsn = $SQLServer .':host=' . $serverName . ';dbname='.$dbase;
