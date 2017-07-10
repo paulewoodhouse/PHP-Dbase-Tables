@@ -20,7 +20,7 @@ function return_table($sqlstring, $title='Title', $caption='Caption', $params=ar
 
 	echo "<h1>".$title."</h1>".
 		"<style type ='text/css'>".
-	 	"table { border-collapse:collapse;border:1px solid #3399FF; fond:10pt verdana; color:#343434; }".
+	 	"table { border-collapse:collapse;border:1px solid #3399FF; font:10pt verdana; color:#343434; }".
 		"table td, table th, table caption { border:1px solid #3399FF; }".
 		"table caption { font-weight:bold; background-color:white }".
 		"table th { background-color#3399FF; font-weight:bold; }".
